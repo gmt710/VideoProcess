@@ -57,8 +57,8 @@ int VideoImageWrite(string videoPath, string folderPath ) {
 //int main()
 //{
 //	// 获取视频文件
-//	string videoPath = "E:/project/huawei/image/TestData/video/8_3.mp4";
-//	string folderPath = "E:/project/huawei/image/TestData/video/8_3/";
+//	string videoPath = "E:/project/image/TestData/video/8_3.mp4";
+//	string folderPath = "E:/project/image/TestData/video/8_3/";
 //	
 //	VideoImageWrite(videoPath, folderPath);
 //

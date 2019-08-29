@@ -47,11 +47,11 @@ int ImageWriteVideoBatch(string filePath) {
 
 	return 1;
 }
-// 描述：将视频帧转成图片输出
+//// 描述：将视频帧转成视频输出
 int main()
 {
 	//目标文件夹路径
-	string filePath = "E:/project/huawei/image/TestData/imageResult/";
+	string filePath = "E:\project\interface\2019-08-27\test_ssim\testData\test_ssim_nofinger";
 
 	ImageWriteVideoBatch(filePath);
 

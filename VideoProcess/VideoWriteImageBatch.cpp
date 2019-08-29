@@ -39,6 +39,7 @@ int VideoWriteImageBatch(string filePath) {
 
 		string mp4Path = filePath + string(fileinfo.name);
 		VideoCapture cap(mp4Path);
+		cout << mp4Path << endl;
 		//获取视频总帧数
 		long totalFrameNumber = cap.get(CV_CAP_PROP_FRAME_COUNT);
 		cout << "total frames: " << totalFrameNumber << endl;
@@ -78,7 +79,7 @@ int VideoWriteImageBatch(string filePath) {
 //int main()
 //{
 //	//目标文件夹路径
-//	string filePath = "E:/project/huawei/image/TestData/video/";
+//	string filePath = "E:/project/interface/2019-08-27/test_ssim/testData/";
 //	
 //	VideoWriteImageBatch(filePath);
 //	
